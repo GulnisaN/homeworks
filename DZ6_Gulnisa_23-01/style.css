@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: yellow;
+    gap: 200px;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+}
+input {
+    margin: 20px 0;
+    font-size: 1.3rem;
+    padding: .5rem 1em;
+    border: green;
+    border-bottom: 3px solid white;
+    background-color: transparent;
+}
