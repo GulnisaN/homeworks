@@ -730,3 +730,14 @@ a {
         opacity: 1;
     }
 }
+.messages {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    width: 380px;
+    height: 150px;
+    background-color: palegreen;
+    text-align: center;
+    font-size: 24px;
+}
